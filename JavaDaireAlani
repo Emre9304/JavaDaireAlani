@@ -1,0 +1,15 @@
+package giris;
+import java.util.Scanner;
+public class class3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double pi = 3.14;
+        System.out.println("Yarıçapı giriniz: ");
+        double r = input.nextDouble();
+        System.out.println("Açı giriniz: ");
+        int a = input.nextInt();
+        double daireDilimininAlani = (pi * (r *r) * a) /360;
+        System.out.println(daireDilimininAlani);
+
+    }
+}
